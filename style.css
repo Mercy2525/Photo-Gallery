@@ -1,0 +1,46 @@
+#pic{
+display: flex;
+flex-direction: row;
+justify-content: center;
+flex-wrap: wrap;
+
+}
+
+
+.card{
+    height: 210 px;
+    width: 210px;
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid black;
+    box-shadow: 10px black;
+
+}
+
+.card img{
+    width: 210px;
+    height: 180px;
+}
+
+
+#submitForm{
+    align-items: center;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 2px;
+    
+}
+
+button{
+    background-color: rgb(72, 243, 237);
+    box-shadow: 8px black ;
+    border-radius: 12%;
+}
+
+#submitForm input{
+    border: 1px solid black;
+    box-shadow: 10px black;
+    border-radius: 2%;
+}
